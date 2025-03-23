@@ -1,10 +1,10 @@
 "use server";
 
-import { generateObject } from "ai";
 import { google } from "@ai-sdk/google";
+import { generateObject } from "ai";
 
-import { db } from "@/firebase/admin";
 import { feedbackSchema } from "@/constants";
+import { db } from "@/firebase/admin";
 
 export async function createFeedback(params: CreateFeedbackParams) {
   const { interviewId, userId, transcript, feedbackId } = params;
@@ -102,7 +102,7 @@ export async function getLatestInterviews(
     .where("userId", "!=", userId)
     .limit(limit)
     .get();
-
+    
   return interviews.docs.map((doc) => ({
     id: doc.id,
     ...doc.data(),
