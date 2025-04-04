@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     "personalized interview feedback", // Added
     "targeted interview practice", // Added
   ],
-  authors: [{ name: "Your Name" }],
+  authors: [{ name: "Novitas WebWorks" }],
   openGraph: {
     title: "EvoInterview: Ace Your Next Interview with AI-Powered Practice",
     description:
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     siteName: "EvoInterview",
     images: [
       {
-        url: "https://evointerview.com/logo.svg",
+        url: "https://www.evointerview.com/logo.svg",
         width: 1200,
         height: 630,
         alt: "EvoInterview - AI Mock Interviews",
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
     title: "EvoInterview: Ace Your Next Interview with AI-Powered Practice",
     description:
       "EvoInterview uses AI to provide realistic mock interviews, personalized feedback, and targeted practice to help you land your dream job. Prepare for technical and behavioral interviews with confidence.",
-    images: ["https://evointerview.com/twitter-image.png"],
+    images: ["https://www.evointerview.com/twitter-image.jpg"],
     card: "summary_large_image",
   },
   verification: {
