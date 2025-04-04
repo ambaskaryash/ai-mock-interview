@@ -10,30 +10,66 @@ const monaSans = Mona_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "EvoInterview: AI-Powered Mock Interviews",
+  title: "EvoInterview: Ace Your Next Interview with AI-Powered Practice",
   description:
-    "EvoInterview is an AI-powered platform that helps you evolve your skills with mock interviews. Prepare for your job interviews with our AI.",
+    "EvoInterview uses AI to provide realistic mock interviews, personalized feedback, and targeted practice to help you land your dream job. Prepare for technical and behavioral interviews with confidence.",
   keywords: [
-    "AI",
-    "Mock Interviews",
-    "Interview Preparation",
-    "Job Skills",
-    "Career Development",
+    "AI interview practice",
+    "mock interview",
+    "job interview preparation",
+    "AI powered interview",
+    "technical interview practice",
+    "behavioral interview practice",
+    "interview skills",
+    "interview coaching",
+    "career development",
+    "job search",
     "EvoInterview",
-    "AI Interview Practice",
-    "Technical Interviews",
-    "Behavioral Interviews",
+    "AI mock interview",
+    "virtual interview practice",
+    "interview feedback",
+    "practice interviews",
+    "interview prep",
+    "interview simulator",
+    "AI interview prep",
+    "improve interview skills",
+    "get a job",
+    "job interview tips",
+    "interview questions and answers",
+    "behavioral interview questions and answers", // Added
+    "technical interview tips for software engineers", // Added
+    "how to answer common interview questions", // Added
+    "common interview questions and answers", // Added
+    "best interview tips", // Added
+    "ace your next interview", // Added
+    "prepare for job interviews", // Added
+    "improve your interview skills", // Added
+    "job interview preparation tips", // Added
+    "technical interview questions and answers", // Added
+    "behavioral interview questions examples", // Added
+    "top interview questions", // Added
+    "difficult interview questions", // Added
+    "how to answer behavioral interview questions", // Added
+    "how to answer technical interview questions", // Added
+    "mock interview questions and answers", // Added
+    "free mock interviews", // Added
+    "online mock interviews", // Added
+    "AI-powered interview practice", // Added
+    "AI interview simulator", // Added
+    "realistic mock interviews", // Added
+    "personalized interview feedback", // Added
+    "targeted interview practice", // Added
   ],
   authors: [{ name: "Your Name" }],
   openGraph: {
-    title: "EvoInterview: AI-Powered Mock Interviews",
+    title: "EvoInterview: Ace Your Next Interview with AI-Powered Practice",
     description:
-      "EvoInterview is an AI-powered platform that helps you evolve your skills with mock interviews. Prepare for your job interviews with our AI.",
-    url: "https://www.evointerview.com", // Replace with your actual URL
+      "EvoInterview uses AI to provide realistic mock interviews, personalized feedback, and targeted practice to help you land your dream job. Prepare for technical and behavioral interviews with confidence.",
+    url: "https://evointerview.com",
     siteName: "EvoInterview",
     images: [
       {
-        url: "https://www.evointerview.com/logo.svg", // Replace with your actual OG image URL
+        url: "https://evointerview.com/logo.svg",
         width: 1200,
         height: 630,
         alt: "EvoInterview - AI Mock Interviews",
@@ -54,10 +90,10 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "EvoInterview: AI-Powered Mock Interviews",
+    title: "EvoInterview: Ace Your Next Interview with AI-Powered Practice",
     description:
-      "EvoInterview is an AI-powered platform that helps you evolve your skills with mock interviews. Prepare for your job interviews with our AI.",
-    images: ["https://evointerview.com/twitter-logo.jpg"], // Replace with your actual Twitter image URL
+      "EvoInterview uses AI to provide realistic mock interviews, personalized feedback, and targeted practice to help you land your dream job. Prepare for technical and behavioral interviews with confidence.",
+    images: ["https://evointerview.com/twitter-image.png"],
     card: "summary_large_image",
   },
   verification: {
