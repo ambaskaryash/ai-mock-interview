@@ -167,7 +167,12 @@ export const generator: CreateWorkflowDTO = {
       url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/vapi/generate`,
       headers: {
         type: "object",
-        properties: {},
+        properties: {
+          interview: {
+          type: "object",
+          description: "Generated interview object"
+        }
+        },
       },
       body: {
         type: "object",
