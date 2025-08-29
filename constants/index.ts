@@ -169,9 +169,9 @@ export const generator: CreateWorkflowDTO = {
         type: "object",
         properties: {
           interview: {
-          type: "object",
-          description: "Generated interview object"
-        }
+            type: "object",
+            description: "Generated interview object",
+          },
         },
       },
       body: {
@@ -211,7 +211,21 @@ export const generator: CreateWorkflowDTO = {
       },
       output: {
         type: "object",
-        properties: {},
+        properties: {
+          interview: {
+            type: "object",
+            description: "Generated interview with questions and metadata",
+            properties: {
+              id: { type: "string" },
+              role: { type: "string" },
+              level: { type: "string" },
+              type: { type: "string" },
+              techstack: { type: "array", items: { type: "string" } },
+              questions: { type: "array", items: { type: "string" } },
+              createdAt: { type: "string" },
+            },
+          },
+        },
       },
       mode: "blocking",
       hooks: [],
